@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: beige;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+h5 {
+  margin: 10px;
+  text-align: left;
+  color: rgb(16, 169, 16);
+  font-size: 24px;
+  padding-top: 10px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  gap: 50px;
+}
+img {
+  /* size: 100%; */
+  width: 200px;
+  height: auto;
+}
+button {
+  background-color: rgb(16, 169, 16);
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  align-self: flex-end;
+  font-size: 20px;
+}
+.h3 {
+  font-size: 18px;
+}
+.container {
+  align-self: self-start;
+  align-items: start;
+  align-content: center;
+  margin: 70px 100px 40px 120px;
+  padding: 30px;
+  /* border: 2px solid #0c0c0c; */
+  background-color: white;
+  border-radius: 20px;
+  line-height: 3;
+  /* padding-left: 30px; */
+  box-shadow: 1px 1px 15px rgb(125, 120, 120);
+  border-left: 30px;
+  width: auto;
+  display: flex;
+  gap: 50px;
+  /* justify-content: space-between; */
+  margin-left: 250px;
+}
+.first {
+  /* border: 1px solid black; */
+  padding: 30px;
+}
+.border {
+  /* border: 1px solid black; */
+  text-align: right;
+  padding-top: 10px;
+  padding: 30px;
+}
+span {
+  background-color: beige;
+  width: 50px;
+}
+.logIn {
+  padding-top: 30px;
+  text-decoration: underline;
+}
+#Para {
+  text-align: center;
+}
